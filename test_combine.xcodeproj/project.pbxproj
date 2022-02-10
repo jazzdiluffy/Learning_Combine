@@ -12,6 +12,9 @@
 		66980CE727B29A1500E4B2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66980CE627B29A1500E4B2E9 /* Assets.xcassets */; };
 		66980CEA27B29A1500E4B2E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66980CE927B29A1500E4B2E9 /* Preview Assets.xcassets */; };
 		66980CF127B29B1200E4B2E9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66980CF027B29B1200E4B2E9 /* HeaderView.swift */; };
+		66A1BCBE27B50A9B00759E43 /* FirstPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BCBD27B50A9B00759E43 /* FirstPipeline.swift */; };
+		66A1BCC027B519E700759E43 /* LongRunningProcesssView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BCBF27B519E700759E43 /* LongRunningProcesssView.swift */; };
+		66A1BCC227B522BD00759E43 /* CancelMultiplePipelinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BCC127B522BD00759E43 /* CancelMultiplePipelinesView.swift */; };
 		66D897D227B3BA8E00042672 /* ValidationOnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D897D127B3BA8E00042672 /* ValidationOnChangeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +25,9 @@
 		66980CE627B29A1500E4B2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66980CE927B29A1500E4B2E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66980CF027B29B1200E4B2E9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		66A1BCBD27B50A9B00759E43 /* FirstPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPipeline.swift; sourceTree = "<group>"; };
+		66A1BCBF27B519E700759E43 /* LongRunningProcesssView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongRunningProcesssView.swift; sourceTree = "<group>"; };
+		66A1BCC127B522BD00759E43 /* CancelMultiplePipelinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelMultiplePipelinesView.swift; sourceTree = "<group>"; };
 		66D897D127B3BA8E00042672 /* ValidationOnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationOnChangeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +64,9 @@
 				66980CE227B29A1400E4B2E9 /* test_combineApp.swift */,
 				66980CE427B29A1400E4B2E9 /* ContentView.swift */,
 				66D897D127B3BA8E00042672 /* ValidationOnChangeView.swift */,
+				66A1BCBD27B50A9B00759E43 /* FirstPipeline.swift */,
+				66A1BCBF27B519E700759E43 /* LongRunningProcesssView.swift */,
+				66A1BCC127B522BD00759E43 /* CancelMultiplePipelinesView.swift */,
 				66980CF027B29B1200E4B2E9 /* HeaderView.swift */,
 				66980CE627B29A1500E4B2E9 /* Assets.xcassets */,
 				66980CE827B29A1500E4B2E9 /* Preview Content */,
@@ -143,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A1BCC027B519E700759E43 /* LongRunningProcesssView.swift in Sources */,
+				66A1BCC227B522BD00759E43 /* CancelMultiplePipelinesView.swift in Sources */,
 				66D897D227B3BA8E00042672 /* ValidationOnChangeView.swift in Sources */,
+				66A1BCBE27B50A9B00759E43 /* FirstPipeline.swift in Sources */,
 				66980CE527B29A1400E4B2E9 /* ContentView.swift in Sources */,
 				66980CF127B29B1200E4B2E9 /* HeaderView.swift in Sources */,
 				66980CE327B29A1400E4B2E9 /* test_combineApp.swift in Sources */,

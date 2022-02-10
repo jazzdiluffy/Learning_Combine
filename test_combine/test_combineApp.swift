@@ -6,12 +6,11 @@
 //
 
 import SwiftUI
-
 @main
 struct test_combineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LongRunningProcessView()
         }
     }
 }
