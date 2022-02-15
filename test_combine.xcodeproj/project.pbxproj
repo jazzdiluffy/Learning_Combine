@@ -16,6 +16,7 @@
 		66A1BCC027B519E700759E43 /* LongRunningProcesssView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BCBF27B519E700759E43 /* LongRunningProcesssView.swift */; };
 		66A1BCC227B522BD00759E43 /* CancelMultiplePipelinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BCC127B522BD00759E43 /* CancelMultiplePipelinesView.swift */; };
 		66D897D227B3BA8E00042672 /* ValidationOnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D897D127B3BA8E00042672 /* ValidationOnChangeView.swift */; };
+		66D925F227BA5BAA0055BAAE /* Fail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D925F127BA5BAA0055BAAE /* Fail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		66A1BCBF27B519E700759E43 /* LongRunningProcesssView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongRunningProcesssView.swift; sourceTree = "<group>"; };
 		66A1BCC127B522BD00759E43 /* CancelMultiplePipelinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelMultiplePipelinesView.swift; sourceTree = "<group>"; };
 		66D897D127B3BA8E00042672 /* ValidationOnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationOnChangeView.swift; sourceTree = "<group>"; };
+		66D925F127BA5BAA0055BAAE /* Fail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				66980CE427B29A1400E4B2E9 /* ContentView.swift */,
 				66D897D127B3BA8E00042672 /* ValidationOnChangeView.swift */,
 				66A1BCBD27B50A9B00759E43 /* FirstPipeline.swift */,
+				66D925F127BA5BAA0055BAAE /* Fail.swift */,
 				66A1BCBF27B519E700759E43 /* LongRunningProcesssView.swift */,
 				66A1BCC127B522BD00759E43 /* CancelMultiplePipelinesView.swift */,
 				66980CF027B29B1200E4B2E9 /* HeaderView.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A1BCC027B519E700759E43 /* LongRunningProcesssView.swift in Sources */,
+				66D925F227BA5BAA0055BAAE /* Fail.swift in Sources */,
 				66A1BCC227B522BD00759E43 /* CancelMultiplePipelinesView.swift in Sources */,
 				66D897D227B3BA8E00042672 /* ValidationOnChangeView.swift in Sources */,
 				66A1BCBE27B50A9B00759E43 /* FirstPipeline.swift in Sources */,
